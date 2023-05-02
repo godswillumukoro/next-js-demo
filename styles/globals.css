@@ -105,3 +105,42 @@ a {
     color-scheme: dark;
   }
 }
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.gap-2 {
+  gap: 2rem
+}
+
+.navbar {
+  list-style: none;
+}
+
+.logo {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+main {
+  margin-block: 10vh;
+  max-width: 35vw;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.mg-bl-2 > *+* {
+  margin-bottom: 2rem;
+}
